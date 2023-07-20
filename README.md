@@ -1,7 +1,7 @@
 # RosMaster
 # Introduction
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9d610bc6-abb4-4ae7-9d70-6e4f5e6685dd/Untitled.png)
+![Untitled](figures/1.png)
 
 Astra Camera has 
 
@@ -34,11 +34,11 @@ To capture and display rgb images, we should run
 rosrun astra_show  rgb_viewer.py
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0da1b0fc-f857-46be-8f25-f57407ae41bf/Untitled.png)
+![Untitled](figures/2.png)
 
 ## Rqt Graph
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9c0b1711-79c7-44f2-b411-1197f4223b8a/Untitled.png)
+![Untitled](figures/3.png)
 
 The **/camera** namespace contains all the nodes and topics for Astra Camera. The **/camera/camera_nodelet_manager** will start and stop the stream. The streaming is done trough the topics
 
