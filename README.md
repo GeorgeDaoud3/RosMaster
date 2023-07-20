@@ -62,7 +62,7 @@ Next, we prepare The checkerboard used to calibrate the camera by [downloading](
 To calibrate the RGB camera,  execute 
 
 ```bash
-rosrun camera_calibration cameracalibrator.py image:=/camera/rgb/image_raw camera:=/camera/rgb --size 8x6 --square 0.03
+rosrun camera_calibration cameracalibrator.py image:=/camera/rgb/image_raw camera:=/camera/rgb --size 8x6 --square 0.025
 ```
 
 where 
@@ -80,5 +80,5 @@ Then, the result can be saved and committed to a specific path that will be acce
 calibrating the IR camera goes through the same steps but with different parameters to the **cameracalibrator.py** node
 
 ```bash
-rosrun camera_calibration cameracalibrator.py image:=/camera/ir/image_mono8  --size 8x6 --square 0.03
+rosrun camera_calibration cameracalibrator.py image:=/camera/ir/image_mono8  --size 8x6 --square 0.025
 ```
